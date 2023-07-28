@@ -19,7 +19,7 @@ function destructivelyRemoveLastCat() {
   return cats;
 }
 
-// Create a copy of the 'cats' array before modifying it
+
 
 cats = destructivelyRemoveLastCat();
 console.log(cats);
@@ -29,7 +29,7 @@ function destructivelyRemoveFirstCat() {
   return cats;
 }
 
-// Create a copy of the 'cats' array before modifying it
+
 
 cats = destructivelyRemoveFirstCat();
 
@@ -54,10 +54,6 @@ function removeLastCat() {
   newArray.pop();
   return newArray;
 }
-
-// Create a copy of the 'cats' array before modifying it
-
-
 
 function removeFirstCat() {
   // Create a copy of the 'cats' array and modify the copy
